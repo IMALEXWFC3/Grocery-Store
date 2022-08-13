@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grocery Store CAO</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="DREAM.png">
+  </head>
+
+  <body>
+
+    <!-- header section starts -->
+
+      <header class="header">
+        <a href="#" class="logo"><i class='fa fa-shopping-basket'></i>GR CAO </a>
+        
+
+        <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#features">Features</a>
+          <a href="#products">Products</a>
+          <a href="#categories">Categories</a>
+          <a href="#review">Review</a>
+          <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+          <div class="fas fa-bars" id="menu-btn"></div>
+          <div class="fas fa-search" id="search-btn"></div>
+          <div class="fas fa-shopping-cart" id="cart-btn"></div>
+          <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+          <input type="search" id="search-box" placeholder="Search Here...">
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+          <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/cart-img-1.png" alt="Watermelon">
+            <div class="content">
+              <h3>Watermelon</h3>
+              <span class="price">$5.20/-</span>
+              <span class="quantity">QTY : 1</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/cart-img-2.png" alt="Onion">
+            <div class="content">
+              <h3>Onion</h3>
+              <span class="price">$7.75/-</span>
+              <span class="quantity">QTY : 1</span>
+            </div>
+          </div>
+
+          <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/cart-img-3.png" alt="Chicken">
+            <div class="content">
+              <h3>Chicken</h3>
+              <span class="price">$10.75/-</span>
+              <span class="quantity">QTY : 1</span>
+            </div>
+          </div>
+          <div class="total">Total : $30.05/- </div>
+          <a href="#" class="btn">Check Out</a>
+        </div>
+
+        <form action="" class="login-form">
+          <h3>Login Now</h3>
+          <input type="email" placeholder="Enter your Email" class="box">
+          <input type="password" placeholder="Enter your Password" class="box">
+          <p>Forgot your Password? <a href="#">Click Here</a></p>
+          <p>Do not have an account? <a href="#">Create Now</a></p>
+          <input type="submit" value="login now" class="btn">
+        </form>
+      </header>
+
+    <!-- header section ends-->
+
+    <!-- home section starts -->
+      <section class="home" id="home">
+        <div class="content">
+          <h3>Fresh and <span>healthy</span>Products for you.</h3>
+          <p>
+            <span class="eating">Eating healthy products will:</span>
+            Help you live longer,
+            Keep skin, teeth, and eyes healthy,
+            Support muscles,
+            Help achieve and maintain a healthy weight etc...
+          </p>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+      </section>
+
+
+    <!-- home section ends -->\
+
+
+    <!-- features section starts -->
+    <section class="features" id="features">
+      <h1 class="heading">Our <span>Features</span></h1>
+
+      <div class="box-container">
+
+        <div class="box">
+          <img src="images/feature-img-1.png">
+          <h3>Fresh and Healthy</h3>
+          <p>We offer the best products in our grocery store. They are of high quality and it is cheap. Transform your life by eating healthy!</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+          <img src="images/feature-img-2.png">
+          <h3>Free Delivery</h3>
+          <p>Our home service is free and fast. The motorized are certified as professionals in delivery. You can trust them.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+          <img src="images/feature-img-3.png">
+          <h3>Easy Payments!</h3>
+          <p>Our payment service is very secure. We offer different payment methods, so you can easily pay for your order.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- features section ends -->
+
+
+    <!-- products sections starts -->
+      <section class="products" id="products">
+        <h1 class="heading">Our <span>Products</span></h1>
+
+        <div class="swiper product-slider">
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+              <img src="images/product-1.png" alt="">
+              <h3>Fresh Orange</h3>
+              <div class="price">$5.20/- - 12.99/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="images/product-2.png" alt="">
+              <h3>Fresh Onion</h3>
+              <div class="price">$7.25/- - 14.05/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="images/product-3.png" alt="">
+              <h3>Fresh Meat</h3>
+              <div class="price">$6.95/- - 12.00/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="images/product-4.png" alt="">
+              <h3>Fresh Cabbage</h3>
+              <div class="price">$9.99/- - 15.99/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="swiper product-slider">
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+              <img src="images/product-5.png" alt="">
+              <h3>Fresh Potato</h3>
+              <div class="price">$8.45/- - 18.75/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="images/product-6.png" alt="">
+              <h3>Fresh Avocado</h3>
+              <div class="price">$5.55/- - 18.90/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="images/product-7.png" alt="">
+              <h3>Fresh Carrot</h3>
+              <div class="price">$6.70/- - 17.70/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="images/product-8.png" alt="">
+              <h3>Green Lemon</h3>
+              <div class="price">$8.90/- - 20.00/-</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+     <!-- products sections ends -->
+
+     <!-- categories section starts -->
+
+      <section class="categories" id="categories">
+
+        <h1 class="heading"> Product <span>Categories</span></h1>
+
+        <div class="box-container">
+
+          <div class="box">
+            <img src="images/cat-1.png" alt="">
+            <h3>Vegetables</h3>
+            <p>Up To 45% off</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+
+          <div class="box">
+            <img src="images/cat-2.png" alt="">
+            <h3>Fresh Fruits</h3>
+            <p>Up To 30% off</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+
+          <div class="box">
+            <img src="images/cat-3.png" alt="">
+            <h3>Dairy Products</h3>
+            <p>Up To 25% off</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+
+          <div class="box">
+            <img src="images/cat-4.png" alt="">
+            <h3>Fresh Meat</h3>
+            <p>Up To 15% off</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+
+        </div>
+
+      </section>
+
+
+     <!-- categories section ends -->
+
+
+      <!-- review section starts -->
+
+      <section class="review" id="review">
+
+        <h1 class="heading">Customer's <span>Review</span></h1>
+
+        <div class="swiper review-slider">
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+              <img src="images/pic-1.png" alt="">
+              <p>The service is perfect. The best products I've ever seen.</p>
+              <h3>Smith Frank</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="images/pic-2.png" alt="">
+              <p>Very good service. High quality products and many products to choose from.</p>
+              <h3>Anna Elizabeth</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="images/pic-3.png" alt="">
+              <p>They have very good prices for products and the company promises what it says. Good Job!</p>
+              <h3>Louis George</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+
+            <div class="swiper-slide box">
+              <img src="images/pic-4.png" alt="">
+              <p>I love the service. The best company.</p>
+              <h3>Sophia Lizeth</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- review section ends -->
+
+      <!-- blogs section starts -->
+
+
+      <section class="blogs" id="blogs">
+
+        <h1 class="heading">Our <span>Blogs</span></h1>
+
+        <div class="box-container">
+
+          <div class="box">
+            <img src="images/blog-1.jpg" alt="">
+            <div class="content">
+              <div class="icons">
+                <a href="#"><i class="fas fa-user"></i>By User</a>
+                <a href="#"><i class="fas fa-calendar"></i> 1st May, 2021</a>
+              </div>
+              <h3>Meaning of healthy eating and Diet</h3>
+              <p>Healthy eating means eating a wide variety of foods from each of the 5 major food groups, in the amounts recommended.
+
+                Eating a variety of foods from the 5 major food groups provides a range of nutrients to the body, promotes good health and can help reduce the risk of disease - as well as keeping your diet interesting with different flavours and textures. Many of the foods that often feature regularly in modern diets do not form part of the 5 food groups. </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/blog-2.jpg" alt="">
+            <div class="content">
+              <div class="icons">
+                <a href="#"><i class="fas fa-user"></i>By CEO</a>
+                <a href="#"><i class="fas fa-calendar"></i> 1st August, 2021</a>
+              </div>
+              <h3>Why is it important to eat vegetables?</h3>
+              <p>Eating vegetables provides health benefits. People who eat more vegetables and fruits as part of an overall healthy diet are likely to have a reduced risk of some chronic diseases, such as heart disease, including heart attack and stroke and certain types of cancers. Eating foods such as vegetables that are lower in calories instead of higher-calorie food may be useful in helping to lower calorie intake. </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/blog-3.jpg" alt="">
+            <div class="content">
+              <div class="icons">
+                <a href="#"><i class="fas fa-user"></i>By Admin</a>
+                <a href="#"><i class="fas fa-calendar"></i> 2nd June, 2021</a>
+              </div>
+              <h3>Benefits of Broccoli</h3>
+              <p>Broccoli can be eaten cooked or raw — both are perfectly healthy but provide different nutrient profiles.
+
+                Different cooking methods, such as boiling, microwaving, stir-frying and steaming, alter the vegetable’s nutrient composition, particularly reducing vitamin C, as well as soluble protein and sugar. Steaming appears to have the fewest negative effects. Still, raw or cooked, broccoli is an excellent source of vitamin C. Just half a cup (78 grams) of cooked broccoli provides 84% of the reference daily intake (RDI) — more than one-half orange can offer. </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+      <!-- blogs section ends -->
+
+      <!-- footer section starts -->
+
+        <section class="footer">
+
+          <div class="box-container">
+
+            <div class="box">
+              <h3> GR CAO <i class="fas fa-shopping-basket"></i> </h3>
+              <p>Serving the world since 2000 with the best products.</p>
+              <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+              </div>
+            </div>
+
+            <div class="box">
+              <h3> Contact Info </h3>
+              <a href="#" class="links"> <i class="fas fa-phone"></i> +125-988-9078 (CEO) </a>
+              <a href="#" class="links"> <i class="fas fa-phone"></i> +127-852-2547 (Admin)</a>
+              <a href="#" class="links"> <i class="fas fa-envelope"></i> Contact@grcao.com </a>
+              <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> England, UK - 102409 </a>
+            </div>
+
+            <div class="box">
+              <h3> Quick Links </h3>
+              <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+              <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Features </a>
+              <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Products </a>
+              <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Categories </a>
+              <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Review </a>
+              <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Blogs </a>
+            </div>
+
+            <div class="box">
+              <h3> Newsletter </h3>
+              <p>Subscribe for latest updates</p>
+              <input type="email" placeholder="Enter your Email" class="email">
+              <input type="submit" value="subscribe" class="btn">
+              <img src="images/payment.png" class="payment-img" alt="">
+            </div>
+
+          </div>
+
+          <div class="credit"> Created by <span> Alex Feng </span> | All Rights Reserved. </div>
+          
+
+        </section>
+
+
+
+      <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
